@@ -1,0 +1,9 @@
+R5T.D0051.Gmail.LessSecure - Service implementation library for sending System.Net.Mail.MailMessage emails via the Gmail SMTP server using the less secure username/password authentication method.
+
+* System.Net.Mail.MailMessage-based.
+* Gmail account username/password authentication.
+* Uses from-address provider service for from email address and display name.
+
+
+Goals
+

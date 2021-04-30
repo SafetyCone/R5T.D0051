@@ -8,7 +8,7 @@ namespace R5T.D0051.Net.Mail
     /// Service for sending <see cref="MailMessage"/> emails.
     /// </summary>
     /// <remarks>
-    public interface INetMailEmailSender<TEmailMessage> : IEmailSender<MailMessage>
+    public interface INetMailEmailSender : IEmailSender<MailMessage>
     {
     }
 }

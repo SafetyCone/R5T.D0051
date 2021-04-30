@@ -1,4 +1,4 @@
-R5T.D0051.Base - Base library for the service for sending System.Net.Mail.MailMessage emails.
+R5T.D0051Net.Mail.Base - Base library for the service for sending System.Net.Mail.MailMessage emails.
 
 Goals
 
