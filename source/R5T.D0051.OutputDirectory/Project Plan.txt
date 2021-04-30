@@ -1,0 +1,9 @@
+R5T.D0051Net.OutputDirectory - An output directory-based service for "sending" System.Net.Mail.MailMessage emails.
+
+The fact that emails can be "sent" by saving them to a directory allows testing email functionality.
+
+These files can be interogated, or picked-up and sent by a different service.
+
+
+Goals
+
