@@ -9,7 +9,7 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "R5T.D0051.Base", "R5T.D0051
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "_Dependencies", "_Dependencies", "{326437E7-D5E1-4CDF-A9E9-C835EC198345}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "R5T.D0051.Gmail.LessSecure", "..\R5T.D0051.Gmail.LessSecure\R5T.D0051.Gmail.LessSecure.csproj", "{C8C7ED49-9B76-4873-A521-430ACBEC98EA}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "R5T.D0051.Gmail.LessSecure", "R5T.D0051.Gmail.LessSecure\R5T.D0051.Gmail.LessSecure.csproj", "{C8C7ED49-9B76-4873-A521-430ACBEC98EA}"
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "R5T.Dacia.Extensions", "..\..\R5T.Dacia.Extensions\source\R5T.Dacia.Extensions\R5T.Dacia.Extensions.csproj", "{F3234765-03AD-45E4-ADBA-3FC9F67F663E}"
 EndProject
