@@ -1,0 +1,4 @@
+R5T.D0051 - A generically typed service for sending emails (async by default service)
+
+Goals
+
