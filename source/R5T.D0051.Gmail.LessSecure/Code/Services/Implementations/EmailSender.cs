@@ -1,4 +1,4 @@
-﻿using System;
+using System;
 using System.Net;
 using System.Net.Mail;
 using System.Threading.Tasks;
@@ -8,11 +8,13 @@ using Microsoft.Extensions.Logging;
 using R5T.Aalborg;
 
 using R5T.D0053;
+using R5T.T0064;
 
 
 namespace R5T.D0051.Gmail.LessSecure
 {
-    public class EmailSender : ILessSecureGmailNetMailSender
+    [ServiceImplementationMarker]
+    public class EmailSender : ILessSecureGmailNetMailSender, IServiceImplementation
     {
         public const string GmailSmtpServerHostName = "smtp.gmail.com";
         public const int TlsPortNumber = 587;

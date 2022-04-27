@@ -1,6 +1,8 @@
 ﻿using System;
 using System.Threading.Tasks;
 
+using R5T.T0064;
+
 
 namespace R5T.D0051
 {
@@ -10,7 +12,8 @@ namespace R5T.D0051
     /// <remarks>
     /// Sending only.
     /// </remarks>
-    public interface IEmailSender<TEmailMessage>
+    [ServiceDefinitionMarker]
+    public interface IEmailSender<TEmailMessage> : IServiceDefinition
     {
         Task Send(TEmailMessage emailMessage);
     }

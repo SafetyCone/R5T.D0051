@@ -23,6 +23,8 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "R5T.D0053.Base", "..\..\R5T
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "R5T.Aalborg.Extensions", "..\..\R5T.Aalborg\source\R5T.Aalborg.Extensions\R5T.Aalborg.Extensions.csproj", "{29742143-B813-4490-8B83-FA42FEC22353}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "R5T.T0064", "..\..\R5T.T0064\source\R5T.T0064\R5T.T0064.csproj", "{A1F84850-6581-4CE4-B865-11245FA64B4D}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -65,6 +67,10 @@ Global
 		{29742143-B813-4490-8B83-FA42FEC22353}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{29742143-B813-4490-8B83-FA42FEC22353}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{29742143-B813-4490-8B83-FA42FEC22353}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A1F84850-6581-4CE4-B865-11245FA64B4D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A1F84850-6581-4CE4-B865-11245FA64B4D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A1F84850-6581-4CE4-B865-11245FA64B4D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A1F84850-6581-4CE4-B865-11245FA64B4D}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -78,6 +84,7 @@ Global
 		{05C25137-5BA1-42B8-9302-0FFB620EEA0C} = {326437E7-D5E1-4CDF-A9E9-C835EC198345}
 		{1C00D4F7-92E4-410A-9C13-78F62B1F67EF} = {326437E7-D5E1-4CDF-A9E9-C835EC198345}
 		{29742143-B813-4490-8B83-FA42FEC22353} = {326437E7-D5E1-4CDF-A9E9-C835EC198345}
+		{A1F84850-6581-4CE4-B865-11245FA64B4D} = {326437E7-D5E1-4CDF-A9E9-C835EC198345}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {8A1485A4-92F6-4B7F-BA71-4229B790453C}

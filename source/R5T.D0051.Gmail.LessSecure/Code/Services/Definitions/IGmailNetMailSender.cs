@@ -2,10 +2,13 @@
 
 using R5T.D0051.Net.Mail;
 
+using R5T.T0064;
+
 
 namespace R5T.D0051.Gmail
 {
-    public interface IGmailNetMailSender : INetMailEmailSender
+    [ServiceDefinitionMarker]
+    public interface IGmailNetMailSender : INetMailEmailSender, IServiceDefinition
     {
     }
 }

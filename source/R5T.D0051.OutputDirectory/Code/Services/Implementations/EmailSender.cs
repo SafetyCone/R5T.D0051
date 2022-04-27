@@ -1,15 +1,17 @@
-﻿using System;
+using System;
 using System.Net.Mail;
 using System.Threading.Tasks;
 
 using Microsoft.Extensions.Logging;
 
 using R5T.D0055;
+using R5T.T0064;
 
 
 namespace R5T.D0051.OutputDirectory
 {
-    public class EmailSender : IOutputDirectoryNetMailSender
+    [ServiceImplementationMarker]
+    public class EmailSender : IOutputDirectoryNetMailSender, IServiceImplementation
     {
         private IEmailOutputDirectoryPathProvider EmailOutputDirectoryPathProvider { get; }
         private ILogger Logger { get; }
