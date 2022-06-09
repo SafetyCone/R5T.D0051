@@ -1,9 +1,9 @@
 <Project Sdk="Microsoft.NET.Sdk">
-
   <PropertyGroup>
     <TargetFramework>netstandard2.0</TargetFramework>
+    <GenerateDocumentationFile>true</GenerateDocumentationFile>
+    <NoWarn>1591;1573</NoWarn>
   </PropertyGroup>
-
   <ItemGroup>
     <ProjectReference Include="..\..\..\R5T.Aalborg\source\R5T.Aalborg.Extensions\R5T.Aalborg.Extensions.csproj" />
     <ProjectReference Include="..\..\..\R5T.D0053\source\R5T.D0053.Base\R5T.D0053.Base.csproj" />
@@ -11,5 +11,4 @@
     <ProjectReference Include="..\..\..\R5T.Langobard\source\R5T.Langobard\R5T.Langobard.csproj" />
     <ProjectReference Include="..\R5T.D0051.Net.Mail.Base\R5T.D0051.Net.Mail.Base.csproj" />
   </ItemGroup>
-
 </Project>
